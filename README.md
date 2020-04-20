@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.24.
 
+<br>
+
+This project is a simply meteo app made in Angular 8 with HTML5, CSS3, Typescript<br>
+![](https://img.icons8.com/color/96/000000/html-5.png) 
+![](https://img.icons8.com/color/96/000000/css3.png)
+![](https://img.icons8.com/color/96/000000/typescript.png)
+![](https://img.icons8.com/color/96/000000/angularjs.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
