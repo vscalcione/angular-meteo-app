@@ -1,0 +1,18 @@
+<div style="text-align: center;">
+  <h1>City: {{city.value}} </h1>
+  <div *ngIf="weather">
+    <div>
+      <h3> Description: {{description}} </h3>
+      <img style="text-align: center; " src="{{src}}"
+           [@imgAnimation]="stateImg"
+           (mouseover)="stateImg = 'over'"
+           (mouseout)="stateImg = 'out'"/>
+    </div>
+    <div>
+      <h3> Grades: {{weather?.main.temp}}°</h3>
+    </div>
+    <div>
+       <h3> Umidity: {{weather.main.humidity}}%</h3>
+    </div>
+  </div>
+</div>
